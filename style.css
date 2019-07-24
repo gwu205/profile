@@ -165,12 +165,14 @@ footer i:hover {
 }
 
 .gallery {
+  width: 100%;
   display: flex;
 }
 
 .gallery img {
   margin: 5px;
   border-radius: 5px;
+  max-width: 200px;
   transition: transform 0.25s ease-out;
 }
 
